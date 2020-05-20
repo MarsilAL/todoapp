@@ -9,7 +9,7 @@ function ListItem(props){
         return <div className="list" key={item.key}>
            <p> {item.text}
                 <span>
-                    <button className="faicons" onClick={ () => props.deletItem(item.key)}>del</button>
+                    <button className="faicons" onClick={ () => props.deletItem(item.key)}>X</button>
                 </span>
             </p>
         </div>

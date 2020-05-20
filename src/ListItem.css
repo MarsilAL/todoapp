@@ -1,7 +1,7 @@
  .list{
      color: #fff;
      width: 300px;
-     background-color: #5f07ac;
+     background-color: #2681d6;
      height: 50px;
      margin: 20px auto;
      border: 0;
@@ -17,5 +17,19 @@
      cursor: pointer;
  }
  .faicons{
-     margin: 0 5px;
+     margin: 0 7px;
  }
+ .faicons{
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: rgb(77, 28, 28);
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 5px;
+ }
+ .faicons:focus{
+    outline: none;
+  }
